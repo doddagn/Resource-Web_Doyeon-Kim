@@ -1,0 +1,148 @@
+:root{
+    --blue: #02298a;
+    }
+
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline:none; border:none;
+    text-decoration:none;
+    text-transform:capitalize;
+    transition: .2s linear;
+    background-color: rgb(246, 249, 255);
+  
+  }
+  
+  html {
+    font-size:62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top:6rem;
+    overflow-x:hidden;
+  }
+  .content {
+    display: none;
+  }
+
+ 
+
+  .tour-item h3 {
+    
+    font-size: 2rem; 
+    padding: 2rem;
+    color: #1f1f1f;
+  }
+
+  .tour-item:hover h3 {
+    cursor: pointer;
+    font-size: 2.2rem; 
+    color:var(--blue);
+
+  }
+  
+  .tour-item:hover h3::after {
+    content: "\f078"; 
+    font-family: "Font Awesome 5 Free";
+    margin-left: 5px;
+  }
+  
+  .tour-item:hover h3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    
+  }
+
+.tour-item p{
+    
+    font-size: 1.5rem; 
+    padding: 2rem;
+    color: #575757;
+    
+  }
+
+  /* .tour-item p1{
+    
+    font-size: 1.5rem;  
+    padding: 2rem;
+    color: #575757;}*/
+
+.content.show {
+    display: block;
+  }
+
+  body {
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+    margin: 0;
+}
+
+.image2019 {
+    max-width:30%;
+    height: auto;
+    margin-bottom: 15rem; 
+    
+    transition: transform 0.3s ease; 
+    
+}
+
+.image2019:hover {
+    transform: scale(1.1); 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    font-size: 8rem;
+    margin-bottom:3rem;
+    margin-top:30rem;
+}
+
+
+
+h1:hover {
+    
+    font-size: 6rem;
+    color:#02298a;
+    cursor: pointer;
+    transform: scale(1.5.1);
+}
+
+h3 {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+}
+
+.video {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+}

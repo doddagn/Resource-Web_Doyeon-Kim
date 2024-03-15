@@ -1,0 +1,205 @@
+<!-- 라이브 영상 리스트 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tours</title>
+  <link rel="stylesheet" href="live.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head> 
+
+<header>
+    <h1 id="typing-heading">Your Name</h1>
+</header>
+<body>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      const headingElement = document.getElementById('typing-heading');
+      const text = headingElement.innerText;
+      headingElement.innerText = ''; 
+  
+      let index = 0;
+      const typingInterval = 100; 
+  
+      function typeNextChar() {
+        if (index < text.length) {
+          headingElement.innerText += text.charAt(index);
+          index++;
+          setTimeout(typeNextChar, typingInterval);
+        }
+      }
+  
+      typeNextChar();
+    });
+  </script>
+<div class="tour-list">
+    <div class="tour-item" onclick="toggleContent(1)">
+      <h3>Dream Lantern</h3>
+      <div class="content" id="content-1">
+        
+        <p>RADWIMPS- Dream Lantern (Your Name) LIVE Concert</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rZpn85Q7IAM" title="RADWIMPS-- dream lantern (your name) LIVE concert" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </div>
+       <p>RADWIMPS- Yumetourou (Dream Lantern) | Asian Tour 2023 Live in Jakarta</p>
+       <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gLzNUZw6-6s" title="230730 RADWIMPS - Yumetourou (Dream Lantern) | Asian Tour 2023 Live in Jakarta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>RADWIMPS- Dream Lantern Orchestra</p>
+       <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/i5kJrPkUqUY" title="RADWIMPS- Dream Lantern Orchestra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>夢灯籠(Dream Lantern)- RADWIMPS Live In Seoul, Korea 2023</p>
+       <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WUHxyJMtI5k" title="夢灯籠(Dream Lantern) - RADWIMPS Live In Seoul, Korea 2023.07.21" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>夢灯籠 Dream Lantern | RADWIMPS | Chicago Live 2023</p>
+       <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eFKyhxAV7pc" title="【4K】夢灯籠 Dream Later | RADWIMPS | Chicago Live 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>Radwimps 夢灯籠 Dream Lantern Cologne 2023</p>
+       <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dHaEebd77HY" title="Radwimps  夢灯籠 Dream Lantern Cologne 2023 (4k HDR)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>RADWIMPS “Dream Lantern” Live at LA 2023</p>
+       <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pre3ff8L2So" title="RADWIMPS “Dream Lantern” Live at LA 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    
+    </div>
+    </div> 
+
+   <div class="tour-item" onclick="toggleContent(2)">
+      <h3>Zenzenzense</h3>
+      <div class="content" id="content-2">
+        <p>前前前世 Zen Zen Zense | RADWIMPS Live | Your Name</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7ieUvD5TgHk" title="前前前世 Zen Zen Zense | RADWIMPS Live | Your Name" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>RADWIMPS - Zenzenzense 前前前世 4K (Live in Paris 2023) </p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nfut22dz6X0" title="RADWIMPS - Zenzenzense 前前前世 4K (Live in Paris 2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Radwimps live zen zen zense / Kimi No Nawa OST</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BcHV-ustOJU" title="Radwimps live zen zen zense / Kimi No Nawa OST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Radwimps 前前前世 Zenzenzense Cologne 2023 </p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZjaNg6Ox340" title="Radwimps  前前前世 Zenzenzense Cologne 2023 (4k HDR)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>RADWIMPS - Zenzenzense (前前前世) @Roundhouse London </p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4dQCa3Lhp8s" title="RADWIMPS - Zenzenzense (前前前世) @Roundhouse London 4K 60fps | 21.05.23" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>「Zenzenzense 前前前世」ー Radwimps 『México 2023』 </p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kECrJoz8W7o" title="「Zenzenzense 前前前世」ー Radwimps 『México 2023』" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>RADWIMPS - Zenzenzense 前前前世 | Asian Tour 2023 Live in Jakarta </p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G55ABm--VLs" title="230730 RADWIMPS - Zenzenzense 前前前世 | Asian Tour 2023 Live in Jakarta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>RADWIMPS “Zenzenzense” Live at LA 2023</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_MIqQM80-cA" title="RADWIMPS “Zenzenzense” Live at LA 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="tour-item" onclick="toggleContent(3)">
+        <h3>Sparkle</h3>
+        <div class="content" id="content-3">
+          <p>Kimi no Na wa. (Your Name) Orchestra Concert「Sparkle - RADWIMPS」</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/83DCAtLl2Yg" title="Kimi no Na wa. (Your Name) Orchestra Concert「Sparkle - RADWIMPS」" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          
+          <p>Theme Of Mitsuha➕スパークル（Sparkle）｜RADWIMPS Chicago</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/erCkNMjMGxw" title="【4K】Theme Of Mitsuha➕スパークル（Sparkle）｜RADWIMPS Chicago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>RADWIMPS - Theme of Mitsuha + スパークル Sparkle | Asian Tour 2023 Live in Jakarta</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/94QvbwsMobQ" title="230730 RADWIMPS - Theme of Mitsuha + スパークル Sparkle | Asian Tour 2023 Live in Jakarta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>スパークル(Sparkle) - RADWIMPS Live In Seoul, Korea 2023</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Djcfx_YPblg" title="スパークル(Sparkle) - RADWIMPS Live In Seoul, Korea 2023.07.21" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>Radwimps "Sparkle" live in Berlin 30.5.2023</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/guNtWEuoVKE" title="Radwimps &quot;Sparkle&quot; live in Berlin 30.5.2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>Radwimps Live @ Toronto - Theme of Mitsuha / Sparkle</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xkx8KlDcEZw" title="Radwimps Live @ Toronto - Theme of Mitsuha / Sparkle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="tour-item" onclick="toggleContent(4)">
+        <h3>Katawaredoki</h3>
+        <div class="content" id="content-4">
+          <p>Kataware Doki @kimi no nawa Orchestra Concert</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pT0aZOQP4fY" title="kataware doki" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>Your Name Kimi no Na wa 君の名は。 Orchestra Concert Katawaredoki かたわれ時</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OZNSnYEYspY" title="Your Name Kimi no Na wa 君の名は。 Orchestra Concert  Katawaredoki かたわれ時" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>RADWIMPS - Katawaredoki | Asian Tour 2023 Live in Jakarta</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vyhz_35dKt4" title="230730 RADWIMPS - Katawaredoki | Asian Tour 2023 Live in Jakarta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="tour-item" onclick="toggleContent(5)">
+        <h3>Nandemonaiya</h3>
+        <div class="content" id="content-5">
+          <p>Radwimps - Nandemonaiya ( kimi no nawa orchestra concert)</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VStNbZbTbRg" title="Radwimps -  Nandemonaiya ( kimi no nawa orchestra concert)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>Nandemonaiya live @Radwimps Human Bloom Tour 2017 </p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bu8EnmJW9To" title="Nandemonaiya live @Radwimps Human Bloom Tour 2017" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>Nandemonaiya LIVE - Radwimps @ Forum Melbourne 2023</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BSQCpnDt3tA" title="Nandemonaiya LIVE - Radwimps @ Forum Melbourne 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>[RADWIMPS] Nandemonaiya + Kanata Haluka | Live at Chicago | なんでもないや+カナタハルカ</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5OMEUm2XZF4" title="[RADWIMPS] Nandemonaiya + Kanata Haluka | Live at Chicago | なんでもないや+カナタハルカ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>RADWIMPS - Nandemonaiya/KANATA HALUKA なんでもないや/カナタハルカ - Youtube Theatre LA</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wk-oBYu7TKI" title="RADWIMPS - Nandemonaiya/KANATA HALUKA なんでもないや/カナタハルカ - Youtube Theatre LA 04/18/23" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>「Nandemonaiya \ Kanata Haruka」ー Radwimps 『México 2023』</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SQpmdLV3va8" title="「Nandemonaiya \ Kanata Haruka」ー Radwimps 『México 2023』" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>RADWIMPS - Nandemonaiya なんでもないや + Kanata Haluka カナタハルカ | Asian Tour 2023 Live in Jakarta</p>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3aE642SBHqU" title="230730 RADWIMPS - Nandemonaiya なんでもないや + Kanata Haluka カナタハルカ | Asian Tour 2023 Live in Jakarta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+      </div>
+     
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

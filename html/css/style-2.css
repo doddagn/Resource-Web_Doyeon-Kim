@@ -1,0 +1,139 @@
+:root{
+    --blue: #02298a;
+    }
+
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline:none; border:none;
+    text-decoration:none;
+    text-transform:capitalize;
+    transition: .2s linear;
+  
+  }
+  
+  html {
+    font-size:62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top:6rem;
+    overflow-x:hidden;
+    
+  }
+
+  .home{
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(https://th.bing.com/th/id/R.0a3662f06bdd7bf3304cff6bc1e7683d?rik=wunTHYBkvwbYww&riu=http%3a%2f%2fspice.eplus.jp%2fimages%2flp5rkliz0coyEFYyjooOTbta5nNAVPj7UMFAG1sjqip8DQMOYWs9hdMb4PvWMApP%2f&ehk=P3G2KYk5PBQTAR5UOazF6kz1Msqvs0W6cSYfeBPNz78%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+  
+  .home .content {
+    position: relative;
+  }
+  
+  .home h3{
+    font-size: 15rem;
+    color: #ffffff;
+    position: absolute;
+    margin-left:5%;
+    margin-top: 50%;
+    top: -100%;
+    left: -100%; 
+    transform: translateY(-50%);
+    opacity: 0; 
+    animation: slideIn 2s forwards; 
+    }
+
+    @keyframes slideIn {
+    from {
+      left: -100%; 
+      opacity: 0;
+    }
+    to {
+      left: 0; 
+      opacity: 1;
+    }
+    }
+
+  .home p{
+    font-size: 1.3rem;
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 100%; 
+    right: -500%; 
+    margin-left:1.5rem;
+    margin-top:.5rem;
+    transform: translateY(-50%);
+    opacity: 0; 
+    animation: slideIn 3s forwards; 
+    }
+
+    @keyframes slideIn {
+     from {
+          left: -100%; 
+          opacity: 0;
+        }
+    to {
+          left: 0; 
+          opacity: 1;
+        }
+    }
+
+.home .btn2 {
+    display: inline-block;
+    margin-top:9rem;
+    margin-left:1.5rem;
+    border-radius: 1rem;
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    position: flex;
+    top: 70%; 
+  left: -100%;
+  opacity: 0; 
+  animation: slideInBtn 4s forwards; 
+}
+
+
+@keyframes slideInBtn {
+  from {
+    left: -100%; 
+    opacity: 0;
+  }
+  to {
+    left: 0; 
+    opacity: 1;
+  }
+}
+  
+
+ 
+.home .btn2:hover{
+    background:var(--blue);
+  }
+        
+/* .home .content span { 
+      font-size: 2rem;
+      color:var(--blue);
+      padding:1rem 0;
+      line-height:1.5;
+  }
+.home .content span{
+    font-size:1.5rem;
+    color:#999;
+    padding:1rem 0;
+    line-height:1.5;
+  }*/
+  
+  
+  
+ 
+  
+
